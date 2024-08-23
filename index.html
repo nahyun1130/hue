@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>휴앤하임</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <ul>
+                <li>Eren's 장기임대
+                </li>
+                <li>사진
+
+                </li>
+                <li>보증금/월세
+                </li>
+                <li>
+                    지도
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div class="swiper family">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide family1"></div>
+                    <div class="swiper-slide family2"></div>
+                    <div class="swiper-slide family3"></div>
+                    <div class="swiper-slide family4"></div>
+                    <div class="swiper-slide family5"></div>
+                    <div class="swiper-slide family6"></div>
+                    <div class="swiper-slide family7"></div>
+                    <div class="swiper-slide family8"></div>
+                    <div class="swiper-slide family9"></div>
+                    <div class="swiper-slide family10"></div>
+                    <div class="swiper-slide family11"></div>
+                    <div class="swiper-slide family12"></div>
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </main>
+        <footer>
+
+            <div>
+                <p>
+                    물건 소재지: 경상북도 경주시 천북면 동산리 913 111동 1401호 59A 보증금 2000 월세 80 <br>
+                    연락처:백산공인중개사사무소 (대표:서동섭)
+                    010-7397-7988</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".family", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+</html>
